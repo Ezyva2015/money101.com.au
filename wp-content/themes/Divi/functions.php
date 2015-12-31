@@ -1,5 +1,27 @@
 <?php
 
+
+/**
+* Enable manual mentainance mode in the site
+* @src http://www.hnldesign.nl/work/code/wordpress-manual-maintenance-mode/
+* define('MAINTENANCE', true); //set to true to enable maintenance mode</p>
+* if (!is_admin() && !current_user_can( 'manage_options' ) && MAINTENANCE) { //envoke maintenance if set<br />
+*   if ( file_exists( WP_CONTENT_DIR . '/maintenance.php' ) ) {
+*   	require_once( WP_CONTENT_DIR . '/maintenance.php' ); 
+*       die(); 
+*    }
+* } 
+*/ 
+if(false) {
+	require_once( WP_CONTENT_DIR . '/maintenance.php' ); 
+    die(); 
+}
+
+
+
+
+ 
+
 if ( ! isset( $content_width ) ) $content_width = 1080;
 
 function et_setup_theme() {

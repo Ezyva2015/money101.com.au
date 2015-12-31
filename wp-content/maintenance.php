@@ -1,4 +1,4 @@
-<?php
+<?php 
 $protocol = $_SERVER["SERVER_PROTOCOL"];
 IF ("HTTP/1.1" != $protocol && "HTTP/1.0" != $protocol ) :
     $protocol = "HTTP/1.0";
