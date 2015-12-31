@@ -1,0 +1,27 @@
+*** Elite Changelog ***
+
+01.04.2014 - version 1.1.1
+ * js/cbpScroller.js -- replaced sections with divs for IE 8 compatibility
+ * includes/shortcodes.js -- changed loading of scripts in animation to be tied to shortcode
+ * includes/scripts.js -- removed enqueuing of animation scripts (moved to shortcode)
+ * layouts/hero-options.php -- added slide ID to each style in the gallery section
+
+12.12.2013 - version 1.1.0
+
+Notes:  Added support for animation on pages
+
+ * style.css -- added necessary styles for home page animation.  Fixed home products margins on tablets
+ * page-home-template.php -- added <div id="cbp-so-scroller" class="cbp-so-scroller"> for animation support
+ * page.php -- added <div id="cbp-so-scroller" class="cbp-so-scroller"> for animation support
+ * includes/scripts.php -- added enqueuing of cbpScroller.js, classie.js and modernizr.js
+ * includes/shortcodes.php -- added shortcode for home page animation
+ * includes/custom-js.php -- initialization of cbpScroller added
+ * includes/options.php -- added drop-down top margin option
+ * includes/custom-css.php -- added drop-down top margin option
+
+12.09.2013 - version 1.0.1
+ * layouts/staff-details.php -- fixed links to staff member's social profiles
+ * style.css -- added whitespace: nowrap to navigation menu and footer.  Added styles to make WordPress gallery responsive on smaller screens
+
+11.01.2013 - version 1.0.0
+ * First release!

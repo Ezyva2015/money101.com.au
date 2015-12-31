@@ -1,0 +1,125 @@
+/*
+ / This file adds in support for our font icons in the various
+ / custom post types
+ /
+*/
+
+
+.column-slide_thumbnail img,
+.column-slide_thumbnail iframe {
+	max-width: 100%;
+	min-height: 200px;
+	height: auto;
+}
+
+@font-face {
+	font-family: 'ElegantIcons';
+	src:url('../../fonts/ElegantIcons.eot');
+	src:url('../../fonts/ElegantIcons.eot?#iefix') format('embedded-opentype'),
+		url('../../fonts/ElegantIcons.woff') format('woff'),
+		url('../../fonts/ElegantIcons.ttf') format('truetype'),
+		url('../../fonts/ElegantIcons.svg#ElegantIcons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* testimony Menu Icon - 16px */
+#menu-posts-testimony .wp-menu-image {
+    background: none !important;
+}
+
+#menu-posts-testimony .wp-menu-image:before {
+	content: "\76";
+	-webkit-font-smoothing: antialiased;
+	width: 16px;
+	height: 16px;
+	font: 20px 'ElegantIcons';
+	margin-left: 4px;
+	margin-right: 1px;
+	position: relative;
+	top: 2px;
+	color: #817f7f;
+}
+
+#menu-posts-testimony.wp-has-current-submenu .wp-menu-image:before {
+    color: #fff;
+}
+
+/* testimony Screen - 32px */
+.icon32-posts-testimony {
+    background: none !important;
+}
+
+.icon32-posts-testimony:before {
+	content: "\76";
+	-webkit-font-smoothing: antialiased;
+	top: -4px;
+	position: relative;
+	font: 36px 'ElegantIcons';
+}
+
+/* Staff Screen - 32px */
+.icon32-posts-staff {
+    background: none !important;
+}
+
+.icon32-posts-staff:before {
+	content: "\e08b";
+	-webkit-font-smoothing: antialiased;
+	margin-top: 1px;
+	font: 32px 'ElegantIcons';
+}
+
+/* Staff Menu Icon - 16px */
+#menu-posts-staff .wp-menu-image {
+    background: none !important;
+}
+
+#menu-posts-staff .wp-menu-image:before {
+	content: "\e08b";
+	-webkit-font-smoothing: antialiased;
+	width: 16px;
+	height: 16px;
+	font: 20px 'ElegantIcons';
+	margin-left: 4px;
+	position: relative;
+	top: 2px;
+	color: #817f7f;
+}
+
+#menu-posts-staff.wp-has-current-submenu .wp-menu-image:before {
+    color: #fff;
+}
+
+/* Slide Screen - 32px */
+.icon32-posts-slide {
+    background: none !important;
+}
+
+.icon32-posts-slide:before {
+	content: "\e006";
+	-webkit-font-smoothing: antialiased;
+	margin-top: 1px;
+	font: 32px 'ElegantIcons';
+}
+
+/* Slide Menu Icon - 16px */
+#menu-posts-slide .wp-menu-image {
+    background: none !important;
+}
+
+#menu-posts-slide .wp-menu-image:before {
+	content: "\e006";
+	-webkit-font-smoothing: antialiased;
+	width: 16px;
+	height: 16px;
+	font: 20px 'ElegantIcons';
+	margin-left: 3px;
+	position: relative;
+	top: 2px;
+	color: #817f7f;
+}
+
+#menu-posts-slide.wp-has-current-submenu .wp-menu-image:before {
+    color: #fff;
+}

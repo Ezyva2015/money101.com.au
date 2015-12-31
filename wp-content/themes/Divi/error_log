@@ -1,0 +1,8 @@
+[28-Dec-2015 17:50:15 Australia/Melbourne] PHP Warning:  Xdebug MUST be loaded as a Zend extension in Unknown on line 0
+[28-Dec-2015 17:50:15 Australia/Melbourne] PHP Fatal error:  Call to undefined function get_header() in /home/money101/public_html/wp-content/themes/Divi/index.php on line 1
+[28-Dec-2015 17:50:15 Australia/Melbourne] PHP Stack trace:
+[28-Dec-2015 17:50:15 Australia/Melbourne] PHP   1. {main}() /home/money101/public_html/wp-content/themes/Divi/index.php:0
+[29-Dec-2015 18:42:32 Australia/Melbourne] PHP Warning:  Xdebug MUST be loaded as a Zend extension in Unknown on line 0
+[29-Dec-2015 18:42:32 Australia/Melbourne] PHP Fatal error:  Call to undefined function get_header() in /home/money101/public_html/wp-content/themes/Divi/index.php on line 1
+[29-Dec-2015 18:42:32 Australia/Melbourne] PHP Stack trace:
+[29-Dec-2015 18:42:32 Australia/Melbourne] PHP   1. {main}() /home/money101/public_html/wp-content/themes/Divi/index.php:0
